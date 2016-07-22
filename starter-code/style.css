@@ -1,3 +1,96 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+h1 {
+	color: #008080;
+}
+h2 {
+	color: gold;
+}
+
+#intro {
+	display: inline-block;
+	margin: 5px 580px 0px 5px;
+}
+
+.board {
+        height: 50%;
+        width: 50%;
+        display: inline-block;
+        float: left;
+        margin: 8%;
+    }
+
+.cardleft {
+	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: yellow;
+	display: block;
+	align-content: center;
+	float: left;
+	margin: 0px 10px 50px 50px;
+	padding: 5px;
+	clear: both;
+}
+
+.cardright {
+	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: yellow;
+	display: block;
+	align-content: center;
+	float: left;
+	margin: 0px 10px 50px 50px;
+	padding: 5px;
+}
+
+h1 {
+	color: rgb(2,32,130);
+}
+
+h2 {
+	color: #ffd700;
+}
+body {
+	text-align: center;
+}
+span {
+	color: orange;
+}
+footer {
+	text-align: center;
+	color: black;
+	background-color: #808080;
+	clear: both;
+}
+nav {
+	text-decoration: none;
+	background-color: #808080;
+}
+a {
+	background-color: #ffbf00;
+	color: white;
+	padding: 35px;
+	display: block;
+	float: left;
+}
+a:hover {
+	background-color: #eef53c;
+}
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+}
+
+h1, h2, footer, p {
+	align-content: center;
+}
+
+.wrapper {
+	float: left;
+}
